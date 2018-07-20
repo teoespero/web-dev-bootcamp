@@ -1,0 +1,247 @@
+
+/* crackedNut.css  CSS author Theo Espero http://www.codeunderground.cjb.net */
+/* cell text standard bold */
+
+.celltextstdbold{
+	font-family: Verdana, Tahoma; 
+	font-size: 9pt;
+	font-weight: bold;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.celltextstationary{
+	font-family: Verdana, Tahoma;
+	font-size: 8pt;
+	padding-right: 12px;
+	padding-top: 6px;
+	padding-left: 26px;
+	padding-bottom: 6px;
+}
+.celltextstd{
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.celltextstdlineheight{
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+	line-height: 17px;
+}
+.celltextlarge{
+	font-family: Verdana, Tahoma;
+	font-size: 11pt;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-left: 6px;
+	padding-bottom: 2px;
+}
+.celltextlargepadding{
+	font-family: Verdana, Tahoma;
+	font-size: 11pt;
+	padding-right: 6px;
+	padding-top: 7px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.celltextlargenopad{
+	font-family: Verdana, Tahoma;	
+	font-size: 11pt;
+}
+.celltextverylarge{
+	font-family: Verdana, Tahoma;
+	font-size: 14pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.celltextlargebold{
+	font-family: Verdana, Tahoma;
+	font-size: 11pt;
+	font-weight: bold;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.celltextstdnotoppad {
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.celltextsmall{
+	font-family: Verdana, Tahoma;
+	font-size: 10pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.celltextsmalllinehgt{
+	font-family: Verdana, Tahoma;
+	font-size: 7pt;
+	line-height: 18px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.celltextstdpadleft{
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-top: 6px;
+	padding-left: 16px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+}.celltextstdpadleftnobottom{
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-top: 6px;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.celltextpadleftnotop{		
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-bottom: 6px;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.celltextsmallpadleft{
+	font-family: Verdana, Tahoma;
+	font-size: 8pt;
+	padding-top: 10px;
+	padding-left: 18px;
+	padding-bottom: 6px;
+}
+.navsmall{
+	font-family: Verdana, Tahoma; 
+	color: #FFFFFF;
+	font-size: 7pt;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-left: 2px;
+	padding-bottom: 4px
+}
+.navleftsmall{
+	font-family: Verdana,Tahoma;
+	font-size: 7pt;
+	padding-right: 2px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	line-height: 16px;
+}
+.navleftsmallcont{
+	font-family: Verdana, Tahoma;
+	font-size: 7pt;
+	padding-right: 2px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	line-height: 16px;
+}
+.navleftsmallselected{
+	font-family: Verdana, Tahoma;
+	color: #FF0000;
+	font-size: 7pt;
+	Padding-left: 2px;
+	padding-right: 1px;
+	padding-bottom: 2px;
+}.navleftsmallselectedbetween{
+	font-family: Verdana, Tahoma;
+	color: #FF0000;
+	font-size: 7pt;		Padding-left: 2px;
+	padding-right: 1px;
+}
+.celltextsmallitalic{
+	font-family: Verdana, Tahoma;
+	font-size: 8pt;
+	font-style: italic;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px
+}.celltextstdgrey{
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+	background-color: #EEEEEE
+}
+.celltextstdbkblue{
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+	background-color: #EAE4EF;
+}
+.celltextstdboldbkblue{		font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	font-weight: bold;
+	padding-right: 6px;
+	padding-top: 2px;
+	padding-left: 6px;
+	padding-bottom: 2px;
+	background-color: #EAE4EF;
+}
+.body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.pagebreak { page-break-before: always; }
+p{
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+h1{
+	font-family: Verdana, Tahoma;
+	font-size: 20pt;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-left: 6px;
+	padding-bottom: 2px;
+}
+.footer{
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.mapfooter{
+	font-family: Verdana, Tahoma;
+	font-size: 7pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+.form-input{
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
