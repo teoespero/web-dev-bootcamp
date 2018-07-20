@@ -29,27 +29,31 @@
 			<form action="" method="get">
 			<table class="form-input">
 				<tr>
-					<td>Your name</td>
-					<td><input type="text" placeholder="your-name" name="yourname"></td>
+					<td><label for="your-name">Name</label></td>
+					<td><input type="text" placeholder="your-name" name="yourname" id="your-name" required></td>
+				</tr>
+				<tr>
+					<td><label for="your-email">Email</label></td>
+					<td><input type="email" placeholder="your-email" name="yourname" id="your-email" required></td>
 				</tr>
 					<tr>
-					<td>Date of birth</td>
-					<td><input type="date" placeholder="your-DOB" name="yourdob"></td>
-				</tr>
-				</tr>
-					<tr>
-					<td>Your favorite color</td>
-					<td><input type="color" placeholder="your-fav-color" name="yourcolor"></td>
-				</tr>
-				</tr>
-					<tr>
-					<td>Your picture</td>
-					<td><input type="file" placeholder="your-pic" name="yourpicfile"></td>
+					<td><label for="your-dob">Date of birth</label></td>
+					<td><input type="date" placeholder="your-DOB" name="yourdob" id="your-dob" required></td>
 				</tr>
 				</tr>
 					<tr>
-					<td>Click if you're happy</td>
-					<td><input type="checkbox" placeholder="are-you-happy" name="happyyesorno"></td>
+					<td><label for="your-color">Your favorite color</label></td>
+					<td><input type="color" placeholder="your-fav-color" name="yourcolor" id="your-color"></td>
+				</tr>
+				</tr>
+					<tr>
+					<td><label for="your-picture">Your picture</label></td>
+					<td><input type="file" placeholder="your-pic" name="yourpicfile" id="your-picture"></td>
+				</tr>
+				</tr>
+					<tr>
+					<td><label for="happy-status">Click if you're happy</label></td>
+					<td><input type="checkbox" placeholder="are-you-happy" name="happyyesorno" id="happy-status" required></td>
 				</tr>
 				<tr>
 					<td></td>
