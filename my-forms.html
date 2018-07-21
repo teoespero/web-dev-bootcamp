@@ -29,12 +29,12 @@
 			<form action="" method="get">
 			<table class="form-input">
 				<tr>
-					<td><label for="your-name">Name</label></td>
-					<td><input type="text" placeholder="your-name" name="yourname" id="your-name" required></td>
+					<td><label for="your-name" pattern=".{8,}">Name</label></td>
+					<td><input type="text" placeholder="your-name" name="yourname" id="your-name" required title="A name is required"></td>
 				</tr>
 				<tr>
-					<td><label for="your-email">Email</label></td>
-					<td><input type="email" placeholder="your-email" name="youremail" id="your-email" required></td>
+					<td><label for="your-email" pattern=".{3,}">Email</label></td>
+					<td><input type="email" placeholder="your-email" name="youremail" id="your-email" required title="An email is required"></td>
 				</tr>
 					<tr>
 					<td><label for="your-dob">Date of birth</label></td>
@@ -73,13 +73,17 @@
 					<td><textarea name="your-bio" id="your-bio" rows="10" cols="100"></textarea></td>
 				</tr>
 				<tr>
-					<td></td>
-					<td><input type="Submit" value="Submit"></td>
+					<td><label for="your-message">Message</label></td>
+					<td><textarea name="your-message" id="your-message" rows="10" cols="100"></textarea></td>
 				</tr>
 				</tr>
 					<tr>
 					<td><label for="you-agree">I agree to the terms and conditions.</label></td>
-					<td><input type="checkbox" placeholder="you-agree" name="you-agree" id="you-agree" required></td>
+					<td><input type="checkbox" placeholder="you-agree" name="you-agree" id="you-agree" required title="You need to click agree"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="Submit" value="Submit"></td>
 				</tr>
 			</table>
 			</form>
