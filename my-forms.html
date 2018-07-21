@@ -34,7 +34,7 @@
 				</tr>
 				<tr>
 					<td><label for="your-email">Email</label></td>
-					<td><input type="email" placeholder="your-email" name="yourname" id="your-email" required></td>
+					<td><input type="email" placeholder="your-email" name="youremail" id="your-email" required></td>
 				</tr>
 					<tr>
 					<td><label for="your-dob">Date of birth</label></td>
@@ -51,13 +51,35 @@
 					<td><input type="file" placeholder="your-pic" name="yourpicfile" id="your-picture"></td>
 				</tr>
 				</tr>
-					<tr>
-					<td><label for="happy-status">Click if you're happy</label></td>
-					<td><input type="checkbox" placeholder="are-you-happy" name="happyyesorno" id="happy-status" required></td>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<label for="your-male">Male</label><input type="radio" placeholder="your-male" name="your-gender" id="your-male" value="male"><br>
+						<label for="your-female">Female</label><input type="radio" placeholder="your-female" name="your-gender" id="your-female" value="female">	
+					</td>
+				</tr>
+				<tr>
+					<td><label for="your-goal">Your learning goal</label></td>
+					<td>
+						<select name="your-goal" id="your-goal">
+							<option value="Front end Development">Front end Development</option>
+							<option value="Back end Development">Back end Development</option>
+							<option value="Full stack Development">Full stack Development</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="your-bio">Say something about yourself</label></td>
+					<td><textarea name="your-bio" id="your-bio" rows="10" cols="100"></textarea></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td><input type="Submit" value="Submit"></td>
+				</tr>
+				</tr>
+					<tr>
+					<td><label for="you-agree">I agree to the terms and conditions.</label></td>
+					<td><input type="checkbox" placeholder="you-agree" name="you-agree" id="you-agree" required></td>
 				</tr>
 			</table>
 			</form>
