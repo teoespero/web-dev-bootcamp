@@ -29,7 +29,15 @@
 			<form action="" method="get">
 			<table class="form-input">
 				<tr>
-					<td><label for="your-lname" pattern=".{8,}">Last Name</label></td>
+					<td><label for="your-username" >User Name</label></td>
+					<td><input type="text" placeholder="Username" name="your-username" id="your-username" pattern=".{6,10}" required title="A username is required. Minimum of 6 and a maximum of 10 characters"></td>
+				</tr>
+				<tr>
+					<td><label for="your-password" >Password</label></td>
+					<td><input type="password" placeholder="password" name="your-password" id="your-password" pattern=".{8,16}" required title="A valid passowrd is required. Minimum of 8 and a maximum of 16 characters"></td>
+				</tr>
+				<tr>
+					<td><label for="your-lname" >Last Name</label></td>
 					<td><input type="text" placeholder="Lastname" name="yourlname" id="your-lname" required title="A name is required"></td>
 				</tr>
 				<tr>
