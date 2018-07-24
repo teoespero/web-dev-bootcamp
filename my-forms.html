@@ -29,16 +29,20 @@
 			<form action="" method="get">
 			<table class="form-input">
 				<tr>
-					<td><label for="your-name" pattern=".{8,}">Name</label></td>
-					<td><input type="text" placeholder="your-name" name="yourname" id="your-name" required title="A name is required"></td>
+					<td><label for="your-lname" pattern=".{8,}">Last Name</label></td>
+					<td><input type="text" placeholder="Lastname" name="yourlname" id="your-lname" required title="A name is required"></td>
+				</tr>
+				<tr>
+					<td><label for="your-fname" pattern=".{8,}">First Name</label></td>
+					<td><input type="text" placeholder="Firstname" name="yourfname" id="your-fname" required title="A name is required"></td>
 				</tr>
 				<tr>
 					<td><label for="your-email" pattern=".{3,}">Email</label></td>
-					<td><input type="email" placeholder="your-email" name="youremail" id="your-email" required title="An email is required"></td>
+					<td><input type="email" placeholder="email" name="youremail" id="your-email" required title="An email is required"></td>
 				</tr>
 					<tr>
 					<td><label for="your-dob">Date of birth</label></td>
-					<td><input type="date" placeholder="your-DOB" name="yourdob" id="your-dob" required></td>
+					<td><input type="date" placeholder="mm/dd/yyyy" name="yourdob" id="your-dob" required></td>
 				</tr>
 				</tr>
 					<tr>
@@ -52,10 +56,13 @@
 				</tr>
 				</tr>
 				<tr>
-					<td>Gender</td>
+					<td> <label for="your-gender">Gender</label></td>
 					<td>
-						<label for="your-male">Male</label><input type="radio" placeholder="your-male" name="your-gender" id="your-male" value="male"><br>
-						<label for="your-female">Female</label><input type="radio" placeholder="your-female" name="your-gender" id="your-female" value="female">	
+						<p>
+							<input type="radio" placeholder="your-male" name="your-gender" id="your-male" value="male"><label for="your-male">Male</label>
+							<input type="radio" placeholder="your-female" name="your-gender" id="your-female" value="female"><label for="your-female">Female</label>
+							<input type="radio" placeholder="your-non-binary" name="your-gender" id="your-non-binary" value="non-binary"><label for="your-non-binary">Decline</label>
+						</p>
 					</td>
 				</tr>
 				<tr>
@@ -70,11 +77,11 @@
 				</tr>
 				<tr>
 					<td><label for="your-bio">Say something about yourself</label></td>
-					<td><textarea name="your-bio" id="your-bio" rows="10" cols="100"></textarea></td>
+					<td><textarea name="your-bio" id="your-bio" rows="5" cols="75"></textarea></td>
 				</tr>
 				<tr>
 					<td><label for="your-message">Message</label></td>
-					<td><textarea name="your-message" id="your-message" rows="10" cols="100"></textarea></td>
+					<td><textarea name="your-message" id="your-message" rows="5" cols="75"></textarea></td>
 				</tr>
 				</tr>
 					<tr>
