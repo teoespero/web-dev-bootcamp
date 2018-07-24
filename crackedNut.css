@@ -1,7 +1,21 @@
+/*----------------------------------------------------------------------------------------------
 
-/* crackedNut.css  CSS author Theo Espero http://www.codeunderground.cjb.net */
-/* cell text standard bold */
+	Teodulfo Espero
+	BS Cloud and Systems Administration
+	Western Governors University
 
+	#Web Development Bootcamp - Udemy
+
+----------------------------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------------------------------------------------------
+
+	fonts
+
+----------------------------------------------------------------------------------------------*/
 .celltextstdbold{
 	font-family: Verdana, Tahoma; 
 	font-size: 9pt;
@@ -196,13 +210,28 @@
 	padding-top: 2px;
 	padding-left: 6px;
 	padding-bottom: 2px;
-	background-color: #EAE4EF;
+	background-color: #FFFFFF;
 }
-.body {
+
+/*----------------------------------------------------------------------------------------------
+
+	body
+
+----------------------------------------------------------------------------------------------*/
+
+div.body{
+	display: block;
+	background-color: #FFFFFF;
+	overflow:  auto;
+}
+body {
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
+	/*background:linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);*/
+	background-size: 128px 128px;
+	color: #333;
 }
 .pagebreak { page-break-before: always; }
 p{
@@ -249,4 +278,88 @@ th, td {
     padding: 5px;
     text-align: left;
     vertical-align: top;
+}
+
+/*----------------------------------------------------------------------------------------------
+
+	navbar
+
+----------------------------------------------------------------------------------------------*/
+
+
+ /* The navigation bar */
+.navbar {
+    overflow:  auto;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+} 
+
+
+/*----------------------------------------------------------------------------------------------
+
+	HR
+
+----------------------------------------------------------------------------------------------*/
+
+hr.style-eight { 
+	overflow: visible; /* For IE */ 
+	padding: 0; 
+	border: none; 
+	border-top: 
+	medium double #333; 
+	color: #333; 
+	text-align: center; 
+} 
+hr.style-eight:after { 
+	content: "§"; 
+	display: inline-block; 
+	position: relative; 
+	top: -0.7em; 
+	font-size: 1.5em; 
+	padding: 0 0.25em; 
+	background: white; 
+}
+ hr.style-six { 
+ 	border: 0; 
+ 	height: 0; 
+ 	border-top: 
+ 	1px solid rgba(0, 0, 0, 0.1); 
+ 	border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+ }
+
+/*----------------------------------------------------------------------------------------------
+
+	img
+
+----------------------------------------------------------------------------------------------*/
+
+ img.banner {
+    display: block;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
 }
