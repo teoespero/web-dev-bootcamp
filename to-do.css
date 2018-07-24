@@ -1,0 +1,35 @@
+body{
+	background: #0099cc;
+	color: #ffffff;
+}
+
+.labels {
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+
+input[type=checkbox]:checked + label {
+  	text-decoration: line-through;
+	font-family: Verdana, Tahoma;
+	font-size: 9pt;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px; 
+} 
+
+h1 {
+	font-family: Verdana, Tahoma;
+	font-size: 14pt;
+	font-weight: bold;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+}
+
+
